@@ -1,0 +1,53 @@
+'''Montar um programa que peça 2 numeros e faça a soma,a subtracao,a multiplicacao,a divisao
+e a exponenciacao e mostre os 5 resultados na tela'''
+
+#entrada de dados
+#SOMA
+primeiroNumero = int (input("digite 1 numero: "))
+segundoNumero  = int (input("digite o outro numero: "))
+#processamento
+resultadoSoma = primeiroNumero + segundoNumero #convertendo string para numero inteiro,passar int na frente da variavel
+
+
+#saida de dados
+print ("A soma dos numeros eh: ", resultadoSoma)
+
+#SUBTRACAO
+primeiroNumero = int (input("digite 1 numero: "))
+segundoNumero  = int (input("digite o outro numero: "))
+#processamento
+resultadoSubtracao = int (primeiroNumero) - int (segundoNumero) #convertendo string para numero inteiro,passar int na frente da variavel
+
+
+#saida de dados
+print ("A subtracao dos numeros eh: ", resultadoSubtracao)
+
+#DIVISAO
+primeiroNumero = int (input("digite 1 numero: "))
+segundoNumero  = int (input("digite o outro numero: "))
+#processamento
+resultadoDivisao = int (primeiroNumero) / int (segundoNumero) #convertendo string para numero inteiro,passar int na frente da variavel
+
+
+#saida de dados
+print ("A divisao dos numeros eh: ", resultadoDivisao)
+
+#MULTIPLICACAO
+primeiroNumero = int (input("digite 1 numero: "))
+segundoNumero  = int (input("digite o outro numero: "))
+#processamento
+resultadoMultiplicacao = int (primeiroNumero) * int (segundoNumero) #convertendo string para numero inteiro,passar int na frente da variavel
+
+
+#saida de dados
+print ("A multiplicacao dos numeros eh: ", resultadoMultiplicacao)
+
+#EXPONENCIACAO
+primeiroNumero = int (input("digite 1 numero: "))
+segundoNumero  = int (input("digite o outro numero: "))
+#processamento
+resultadoExpo = int (primeiroNumero) ** int (segundoNumero) #convertendo string para numero inteiro,passar int na frente da variavel
+
+
+#saida de dados
+print ("A exponenciacao dos numeros eh: ", resultadoExpo)
